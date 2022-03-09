@@ -16,7 +16,7 @@ You can import a data set from any major public cloud, from local files, from ex
    - **Select Existing Data Set** &mdash; Choose a data set from the drop-down and specify whether you want to **Replace/Add new** or **Append Existing**.
 3. Enter the URL in the **Source URL*** text box.
 4. Enter the separator in the **Separator*** text box.
-5. Add an description (optional).
+5. Add a description (optional).
 6. Click **Preview Data**.
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
 7. Click **Upload Data**.
