@@ -6,7 +6,7 @@ You can combine multiple data sets in the platform with SQL query operations, su
 
 - The data sets you want to combine can come from any mix of data sources, but they must already be in the platform. 
 
-   See [Importing Data Sets from Data Sources](../single_from_multiple).
+   See [Importing Data Sets from Data Sources](../importing_data_sets.md).
 
 ## Procedure
 
