@@ -1,6 +1,6 @@
 # Importing Data Sets from Data Sources
 
-You can import a data set from any major public cloud, from local files, or from existing tables or queries to existing data sets.
+You can import a data set from any major public cloud, from local files, from existing tables or from queries to existing data sets.
 
 1. Open the platform to the Transfer Data tab.
 2. Choose one of the following options in the **Input Type** drop-down:
