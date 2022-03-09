@@ -1,6 +1,6 @@
 # Creating a Single Data Set from Multiple Data Sets
 
-You can combine multiple data sets in the platform with SQL query functions, such as union and join. This is useful, for instance, if you have training data in one file and test data in another, and by combining them, you can train a model on all the data.
+You can combine multiple data sets in the platform with SQL query operations, such as **union** and **join**. This is useful, for instance, if you have training data in one file and test data in another, and you want to train a model on the combined data.
 
 ## Prerequisites
 
@@ -19,13 +19,13 @@ You can combine multiple data sets in the platform with SQL query functions, suc
 
    The main window shows a code entry panel. 
 
-7. Enter the SQL query. See the Description section for details.
+7. Enter the SQL query. See the Notes and Details section for more information.
 8. Click **Add Data**.
 
 ## Results
 After the platform loads the data, the combined feature set appears in the Analyze Feature Sets tab.  
 
-## Description
+## Notes and Details 
 
 **Note**: Because SQL uses the dot "." for it's object hierarchy, you cannot use the dot for the platform folder hierarchy when specifying a data set. Use the underscore "\_" instead.
 
@@ -50,10 +50,10 @@ After the platform loads the data, the combined feature set appears in the Analy
   from <top>_<sub-folders>_<first data set name> [inner | left | right | full outer] join <top>_<sub-folders>_<second data set name> on tbla."<tbla column to match>" = tblb."<tblb column to match>"
   ```
   - None of the column names need to match across the data sets. The match is specified by: `on <tbla col> = <tblb col>`
-  - Inner, left, and right joins use this syntax, while full outside joins require the following additional code, such as: `order by <column to order>`
+  - Inner, left, and right joins use this syntax, while full outside joins require additional code, such as: `order by <column to order>`
 ## Examples
 
-- For a union, assume you have already imported a file called *train_data.csv* into a data set called train\_data, and another file called *test_data.csv* into a data set called test\_data. These data sets are in your top-level folder called *top*. You want to combine these data sets into a data set called *train_test_combined*.  
+- For a union, assume you have already imported a file called *train_data.csv* into a data set called train\_data, and another file called *test_data.csv* into a data set called test\_data. These data sets are in your top-level folder called *top*. You want to combine these data sets into a data set called train\_test\_combined.  
 
   ```
   select * from top_train_data
@@ -63,9 +63,9 @@ After the platform loads the data, the combined feature set appears in the Analy
   To add a column (called 'test or train') to the combined data set with the name of the original data set for each row:
 
   ```	
-  select *,'train_data' as test or train from top_train_data
+  select *,'train_data' as "test or train" from top_train_data
   union
-  select *,'test_data' as test or train from top_test_data
+  select *,'test_data' as "test or train" from top_test_data
   ```
 - For a join, assume you have already imported a file called *server_data.csv* into a data set called server\_data, and another file called *client_data.csv* into a data set called client\_data. The client\_data data set contains a sub-set of the columns from server\_data, but they both have a column called "site". You want to join the first three columns of server\_data with the last three columns of client\_data only when "site" matches.
   ```
