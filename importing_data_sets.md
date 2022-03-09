@@ -18,8 +18,10 @@ You can import a data set from any major public cloud, from local files, from ex
 4. Enter the separator in the **Separator*** text box.
 5. Add a description (optional).
 6. Click **Preview Data**.
+   
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
 7. Click **Upload Data**.
+   
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
    When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
@@ -33,6 +35,7 @@ You can import a data set from any major public cloud, from local files, from ex
    - **Select Table Name** &mdash; Choose a table from the **Table*** drop-down.
 5. Add a description (optional).
 6. Click **Add Data**.
+   
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
    When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
@@ -46,8 +49,10 @@ You can import a data set from any major public cloud, from local files, from ex
 4. Enter the separator in the **Separator*** text box.
 5. Add a description (optional).
 6. Click **Preview Data**.
+   
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
 7. Click **Add Data**.
+   
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
    When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
