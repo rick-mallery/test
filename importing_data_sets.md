@@ -7,7 +7,9 @@ You can import a data set from any major public crowd, local files, or tables/qu
    - **Add file from URL** &mdash; Enter a URL (https:// or file:///) as the data source.
    - **Add from data connection** &mdash; Enter the name of an existing data set as the data source. 
    - **Add from local file** &mdash; Choose a file from a file browser. 
-3. The options differ depending on which input type you select. Jump to the relevant section below. 
+3. The options differ depending on which input type you select. Jump to the relevant section below.
+
+After running one of the following procedures, the data set is available as a feature set under the Analyze Feature Sets tab.
 
 ## Adding a File from a URL
 1. Choose a folder to store the data set.
@@ -19,8 +21,17 @@ You can import a data set from any major public crowd, local files, or tables/qu
 5. Optionally, you can add a description.
 6. Click **Preview Data**.
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
-6. Click **Upload Data**.
+7. Click **Upload Data**.
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
+   
+## Adding from a Data Connection
+1. Choose a folder to store the data set.
+2. Enter the name of the new data set in the **Data Set Name*** text box.
+3. Choose **Internal DB** from the **Select Connection*** drop-down.
+4. Choose to enter either a custom query or a table name in the **Table or Query*** drop-down.
+   - **Custom Query** &mdash; Enter query code for the data connection.
+   - **Select Table Name** &mdash; Choose a table from the **Table*** drop-down.
+5. Click **Add Data**.
    
 ## Adding a Local File
 1. Choose a folder to store the data set.
@@ -32,6 +43,6 @@ You can import a data set from any major public crowd, local files, or tables/qu
 5. Optionally, you can add a description.
 6. Click **Preview Data**.
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
-6. Click ** Upload Data**.
+7. Click **Add Data**.
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
 
