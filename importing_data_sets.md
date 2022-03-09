@@ -9,8 +9,6 @@ You can import a data set from any major public crowd, local files, or tables/qu
    - **Add from local file** &mdash; Choose a file from a file browser. 
 3. The options differ depending on which input type you select. Jump to the relevant section below.
 
-After running one of the following procedures, the data set appears as a feature set under the Analyze Feature Sets tab.
-
 ## Adding a File from a URL
 1. Choose a folder to store the data set.
 2. For **Data Set Name\***, do one of the following:
@@ -24,6 +22,8 @@ After running one of the following procedures, the data set appears as a feature
 7. Click **Upload Data**.
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
+   When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
+   
 ## Adding from a Data Connection
 1. Choose a folder to store the data set.
 2. Enter the name of the new data set in the **Data Set Name*** text box.
@@ -34,6 +34,8 @@ After running one of the following procedures, the data set appears as a feature
 5. Add a description (optional).
 6. Click **Add Data**.
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
+   
+   When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
    
 ## Adding a Local File
 1. Choose a folder to store the data set.
@@ -47,4 +49,6 @@ After running one of the following procedures, the data set appears as a feature
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
 7. Click **Add Data**.
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
+   
+   When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
 
