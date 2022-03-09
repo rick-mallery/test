@@ -3,13 +3,13 @@
 You can import a data set from any major public crowd, local files, or tables/queries from existing data sets.
 
 1. Open the platform to the Transfer Data tab.
-2. In the Input Type drop-down, choose one of the following options:
+2. Choose one of the following options in the **Input Type** drop-down:
    - **Add file from URL** &mdash; Enter a URL (https:// or file:///) as the data source.
-   - **Add from data connection** &mdash; Enter the name of an existing data set as the data source. 
+   - **Add from data connection** &mdash; Enter the name of an existing table or a custom query as the data source. 
    - **Add from local file** &mdash; Choose a file from a file browser. 
 3. The options differ depending on which input type you select. Jump to the relevant section below.
 
-After running one of the following procedures, the data set is available as a feature set under the Analyze Feature Sets tab.
+After running one of the following procedures, the data set appears as a feature set under the Analyze Feature Sets tab.
 
 ## Adding a File from a URL
 1. Choose a folder to store the data set.
@@ -32,6 +32,7 @@ After running one of the following procedures, the data set is available as a fe
    - **Custom Query** &mdash; Enter query code for the data connection.
    - **Select Table Name** &mdash; Choose a table from the **Table*** drop-down.
 5. Click **Add Data**.
+   The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
 ## Adding a Local File
 1. Choose a folder to store the data set.
