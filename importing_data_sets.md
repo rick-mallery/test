@@ -7,7 +7,7 @@ You can import a data set from any major public cloud, from local files, from ex
    - **Add file from URL** &mdash; Enter a URL (https:// or file:///) as the data source.
    - **Add from data connection** &mdash; Enter the name of an existing table or a custom query as the data source. 
    - **Add from local file** &mdash; Choose a file from a file browser. 
-3. The options differ depending on which input type you select. Jump to the relevant section below.
+3. Jump to a section below for options specific to your input type.
 
 ## Adding a File from a URL
 1. Choose a folder to store the data set.
@@ -51,4 +51,5 @@ You can import a data set from any major public cloud, from local files, from ex
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
    When the job finishes, the data is available as a feature set under the Analyze Feature Sets tab.
-
+## Related Topics
+[Creating a Single Data Set from Multiple Data Sets](single_from_multiple.md)
