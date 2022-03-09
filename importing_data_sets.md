@@ -18,7 +18,7 @@ After running one of the following procedures, the data set appears as a feature
    - **Select Existing Data Set** &mdash; Choose a data set from the drop-down and specify whether you want to **Replace/Add new** or **Append Existing**.
 3. Enter the URL in the **Source URL*** text box.
 4. Enter the separator in the **Separator*** text box.
-5. Optionally, you can add a description.
+5. Add an description (optional).
 6. Click **Preview Data**.
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
 7. Click **Upload Data**.
@@ -31,7 +31,8 @@ After running one of the following procedures, the data set appears as a feature
 4. Choose to enter either a custom query or a table name in the **Table or Query*** drop-down.
    - **Custom Query** &mdash; Enter query code for the data connection.
    - **Select Table Name** &mdash; Choose a table from the **Table*** drop-down.
-5. Click **Add Data**.
+5. Add a description (optional).
+6. Click **Add Data**.
    The platform loads the data set. You can monitor the job status by clicking the Jobs icon in the top-right corner of the platform.
    
 ## Adding a Local File
@@ -41,7 +42,7 @@ After running one of the following procedures, the data set appears as a feature
    - **Select Existing Data Set** &mdash; Choose a data set from the drop-down and specify whether you want to **Replace/Add new** or **Append Existing**.
 3. Click the **Choose File** button and navigate to the data source file.
 4. Enter the separator in the **Separator*** text box.
-5. Optionally, you can add a description.
+5. Add a description (optional).
 6. Click **Preview Data**.
    The columns and data types appear in the main window. You can re-assign the data types, remove columns, and add columns before importing the data set.
 7. Click **Add Data**.
