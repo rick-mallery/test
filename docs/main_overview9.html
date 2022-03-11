@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Not yet ready | </title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-vianai.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/vianai_logo.png">
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+   	<!-- 
+	<script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+	-->
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+			<!--
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;Documentation<span class="projectTitle"> </span></a>
+			-->
+			<a class="navbar-brand" href="index.html">Platform Documentation</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+				<!--
+                  <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Navi</a></li>
+				-->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search not implemented yet...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Not yet ready">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  
+	<!-- <li class="sidebarTitle">Vianai Platform 1.0</li> -->
+	<li><center><img src="images/vianai_logo.png"></center></li>
+  
+  
+  
+  <li>
+      <a title="Overview" href="#">Overview</a>
+      <ul>
+          
+          
+
+          
+          <li><a title="Overview" href="main_overview.html">Overview</a></li>
+
+          
+
+		  
+          
+      </ul>
+   </li>
+      
+      
+  
+  <li>
+      <a title="Platform Flow" href="#">Platform Flow</a>
+      <ul>
+          
+          
+
+          
+          
+          <li class="subfolders">
+			  <a title="Importing Data" href="#">Importing Data</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="Importing Data Sets from Data Sources" href="main_importing_data_sets.html">Importing Data Sets from Data Sources</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Creating a Single Data Set from Multiple Data Sets" href="main_single_from_multiple.html">Creating a Single Data Set from Multiple Data Sets</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Appending one Data Set to Another" href="main_overview2.html">Appending one Data Set to Another</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+			  <a title="Managing Feature Sets" href="#">Managing Feature Sets</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="Transforming Feature Sets" href="main_overview3.html">Transforming Feature Sets</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Creating a Pipeline of Transformers" href="main_overview4.html">Creating a Pipeline of Transformers</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+			  <a title="Training Models" href="#">Training Models</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="TM Placeholder" href="main_overview5.html">TM Placeholder</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+			  <a title="Registering Models" href="#">Registering Models</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="RM Placeholder" href="main_overview6.html">RM Placeholder</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+			  <a title="Optimizing Models" href="#">Optimizing Models</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="OM Placeholder" href="main_overview7.html">OM Placeholder</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+			  <a title="Deploying Models" href="#">Deploying Models</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="DM Placeholder" href="main_overview8.html">DM Placeholder</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+			  <a title="Monitoring Models" href="#">Monitoring Models</a>
+              <ul>
+                  
+                  
+                  
+                  <li class="active"><a title="MM Placeholder" href="main_overview9.html">MM Placeholder</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+
+
+          
+          
+      </ul>
+   </li>
+      
+      
+  
+  <li>
+      <a title="Platform Environment" href="#">Platform Environment</a>
+      <ul>
+          
+          
+
+          
+          <li><a title="Folder System" href="main_overview10.html">Folder System</a></li>
+
+          
+
+		  
+          
+          
+
+          
+          <li><a title="External Services" href="main_overview11.html">External Services</a></li>
+
+          
+
+		  
+          
+      </ul>
+   </li>
+      
+      
+  
+  <li>
+      <a title="FAQs" href="#">FAQs</a>
+      <ul>
+          
+          
+
+          
+          <li><a title="FAQs" href="main_overview12.html">FAQs</a></li>
+
+          
+
+		  
+          
+      </ul>
+   </li>
+      
+      
+  
+  <li>
+      <a title="Release Notes" href="#">Release Notes</a>
+      <ul>
+          
+          
+
+          
+          <li><a title="1.0 Release notes" href="main_overview13.html">1.0 Release notes</a></li>
+
+          
+
+		  
+          
+      </ul>
+   </li>
+      
+      
+	  
+      
+	  <li>
+	    <ul>
+		  <li>one</li>
+		  <li>two
+		    <ul>
+		      <li>two.2</li>
+		    </ul>
+		  </li>
+	    </ul>
+      </li>
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <h1 id="this-page-is-not-yet-ready">This Page is not yet Ready</h1>
+
+<p>I’ll be filling these out soon.</p>
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+</html>
+
+
